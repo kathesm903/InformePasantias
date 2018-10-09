@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.2.27)  30 SEP 2018 15:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.2.27)  8 OCT 2018 16:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -805,32 +805,63 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--150
 
  []
 
-[3] <diagrama1.png, id=20, 844.8363pt x 433.62pt>
+[3] [4]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 188.
+
+ (/usr/share/texmf/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 188.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 190.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 190.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 190.
+
+<diagrama1.png, id=23, 596.9502pt x 433.62pt>
 File: diagrama1.png Graphic file (type png)
  <use diagrama1.png>
-Package pdftex.def Info: diagrama1.png used on input line 182.
-(pdftex.def)             Requested size: 345.0pt x 177.07738pt.
- [4]
-[5 <./diagrama1.png>] (./InformePasantias.aux
+Package pdftex.def Info: diagrama1.png used on input line 211.
+(pdftex.def)             Requested size: 276.00105pt x 200.48656pt.
+ [5 <./diagrama1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
+
+ []
+
+[6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+
+ []
+
+[8] (./InformePasantias.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 6686 strings out of 493013
- 91277 string characters out of 6135682
+ 6723 strings out of 493013
+ 91755 string characters out of 6135682
  191848 words of memory out of 5000000
- 10099 multiletter control sequences out of 15000+600000
- 36422 words of font info for 32 fonts, out of 8000000 for 9000
+ 10125 multiletter control sequences out of 15000+600000
+ 47208 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,6n,49p,995b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1
-/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/
-share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/publi
-c/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb>
-Output written on InformePasantias.pdf (5 pages, 236098 bytes).
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/e
+nc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+sy10.pfb>
+Output written on InformePasantias.pdf (8 pages, 224743 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
- 29 compressed objects within 1 object stream
+ 62 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -60,6 +60,16 @@
 
 \maketitle
 
+\section{Introducción}
+
+En los últimos años, ha habido un interés creciente en el uso de las tecnologías para la comercialización de productos, haciendo que las empresas estén siempre buscando la manera eficiente de vender los mismos. Para lograr esto, se contratan empresas que se dediquen al desarrollo de tecnologías que permitan cumplir con los objetivos deseados. Ogangi es una empresa que ofrece ese tipo de servicios. \\
+
+El objetivo de la realización de este proyecto es optimizar código del sistema. Análisis, diseño e implementación de un módulo de Hibernate para el manejador de base de datos.  
+
+Ahora bien, para poder llevar a cabo el cumplimiento del objetivo, se necesita de conocimientos obtenidos en el transcurso de la carrera. Estos conocimientos se explican brevemente dentro de este informe 
+
+Finalmente, es conveniente acotar la configuración del presente documento, el cual ha sido organizado de la siguiente manera: Capitulo I, marco de referencia, Misión y Visión de la empresa; capitulo II, bases teóricas; capitulo III, aspectos procedimentales, plan de trabajo, desarrollo del plan y vinculación del proyecto con las materias de la carrera; conclusiones, anexos y bibliografías.
+
 \section{Capitulo I}
 
 \subsubsection{Marco de Referencia}
@@ -100,7 +110,7 @@ Las pasantias fueron realizadas especificamente en el area de desarrollo. Donde 
 
 \section{Capitulo II}
 
-\subsection{Bases Teoricas:}
+\subsection{Bases Teóricas:}
 
 \subsubsection{Programación Orientada a Objetos:}
 
@@ -177,22 +187,51 @@ Oracle, es un sistema de gestión de base de datos relacional (o RDBMS por el ac
 
 \subsubsection{Plan de trabajo:}
 
+El proyecto a desarrollar consiste en el levantamiento de información y el análisis del sistema previamente mencionado para posteriormente implementar los mecanismos que permitan finalizar con un producto mas robusto.
+
+Adicionalmente, se debe realizar el levantamiento de información, análisis, diseño e implementación de un modulo de Hibernate para el manejo de base de datos
+
+ \begin{itemize}
+	
+	\item Objetivos de las pasantías:	 
+	\begin{itemize}
+		\item Objetivo General:
+		\begin{itemize}
+			\item Optimizar código del sistema. Análisis, diseño e implementación de un módulo de Hibernate para el manejador de base de datos. 
+		\end{itemize}
+		\item Objetivos Específicos: \\
+		Entre Los objetivos específicos que permitirán que se cumpla con el objetivo general, están:
+		
+		\begin{itemize}
+			\item Revisión y comprensión de los componentes que conforman la solución actual para el sistema
+			\item Diseño e implementación de mejoras a los métodos presentes en el sistema.
+			\item Diseño e implementación de un módulo de Hibernate para la gestión de base de datos.
+			\item Actualizar el JDK a la última versión estable.
+			\item Pruebas funcionales del sistema.
+		\end{itemize} 
+	\end{itemize}
+	 	 
+\end{itemize}
+
+En el siguiente Diagrama se puede apreciar el plan de trabajo propuesto por la empresa para las 8 semanas de pasantías y el desarrollo del plan.
+
 \begin{figure}[htb]
 	\centering
-	\includegraphics[width=1\textwidth]{diagrama1.png}
+	\includegraphics[width=0.8\textwidth]{diagrama1.png}
 	\caption{Diagrama de Gantt}
 	\label{i1}
 \end{figure}
 
-
-\subsection{Introducción a la empresa y al entendimiento de los sistemas:}
+\break 
+\subsection{Desarrollo del plan}
+\subsubsection{Introducción a la empresa y al entendimiento de los sistemas:}
 Semana dedicada a la introducción sobre la implementacion actual del sistema, presentada por el Lider de desarrollo José Hidalgo. Explicación del Proyecto que se va a actualizar. \\
 Entrega de una computadora en la cual se realizara dicho proyecto.
 Instalación de los diferentes proyectos y herramientas a utilizar. \\
 Pruebas simples de las diferentes herramientas necesarias para poder llevar a cabo el proyecto de pasantias, con el fin de entender bien el manejo de dichas herramientas.
 
-\subsection{Levantamiento de Requerimientos:}
-Lograr el funcionamiento del proyecto basado en una conexión JPA. Crear las entidades en Hibernate cpn el fin de facilitar la migración de la base de datos, ya que hibernate permite la migración a cualquier gestor de base de datos. 
+\subsubsection{Levantamiento de Requerimientos:}
+Lograr el funcionamiento del proyecto basado en una conexión JPA. Crear las entidades en Hibernate con el fin de facilitar la migración de la base de datos, ya que hibernate permite la migración a cualquier gestor de base de datos. 
 
 Creación de las entidades en Hibernate. Se selecciono una clave primaria para cada entidad, ya que a pesar de que la BD original es relacional, esta no contaba con las mismas. \\
 Hibernate no permite crear entidades sin claves primarias. \\
@@ -201,30 +240,63 @@ Hibernate no permite crear entidades sin claves primarias. \\
 Creación del archivo XML para poder realizar el mapeo. 
 
  
-\subsection{Analisis:}
+\subsubsection{Analisis:}
 Modificación de las funciones que se encuentran en la clase CNEUtil, las cuales son las utilizadas para realizar las consultas a la BD que se encuentra en Oracle por medio de una conexión JDBC.Estas fueron modificadas a JPA y su conexión se realiza por medio de Hibernate. \\
 
 Creación de Procedimientos Almacenados en Oracle de las consultas que se realizaban por medio de JDBC. 
 
 Comienzo de la clase con la cual se realizara la migración de Oracle a Postgresql.
 
-\subsection{Diseño:}
+\subsubsection{Diseño:}
 
 Creación de las tablas en Postgresql por medio del mapeo objeto-relacional. Esta creación se hizo en el servidor local. También se realizó la creación de los mismos Procedimientos Almacenados que se encuentran en Oracle, ya que estos funcionan correctamente.  
 
 Culminación de la clase Migrate, la cual es la encargada de realizar la migración de Oracle a Postgresql.
 
-\subsection{Implementación:}
+\subsubsection{Implementación:}
 
 Modificación de las funciones de las clases Updater y getDBDataTest. Cambio de JDBC a JPA. Las consultas se realizarón por medio de Procedimientos almacenados.\\
  
 La clase Updater consta de funciones encargadas de insertar valores en una tabla especifica, actualizar o eliminar valores repetidos de la misma. La clase getDBDataTest hace una busqueda en la BD de una cedula con el fin de probar que la conexión es exitosa.
 
-\subsection{Pruebas:}
+\subsubsection{Pruebas:}
 
 Envío de un mensaje de texto para probar el funcionamiento del proyecto conectado con la BD remota que se encuentra en Oracle.
   
 Realización de la migración de Oracle a Postgresql.
+
+\subsection{Vinculación del proyecto con las materias de la carrera}
+
+Para poder llevar a cabo el proyecto, fue necesario el uso de conocimientos teoricos y practicos que han sido impartidos en el transcurso de la carrera. Uno de los mas importantes es el conocimiento adquirido de programación, donde se desarrolla la lógica para resolver este tipo de problemas. 
+
+En el transcurso de la carrera se ven 3 programaciones, cada una con su nivel de dificultad. Para desarrollar este proyecto se necesito especificamente de los conocimientos aprendidos en Programación 2 y Programación 3.
+
+En programación 2, se aprende el manejo de archivos y la programación orientada a Objetos. Este ultimo concepto es muy importante, ya que el lenguaje de programación utilizado para el desarrollo fue JAVA, el cual es un lenguaje de programación orientado a objetos y el manejo de archivos fue necesario para guardar los datos extraidos de la base de datos en archivos.
+
+En programacion 3, se aprende sobre estructuras de datos, ya que las estructuras permiten organizar los datos de una manera eficiente, logrando así hacer un programa optimo.
+
+También se utilizo conceptos adquiridos en las materias del profesional como los son: Base de Datos e Ingenieria del Software.
+
+En base de Datos, se aprende como diseñar de manera eficiente bases de datos relacionales, esto incluye insertar, modificar, eliminar y consultar las relaciones dependiendo de lo que necesite. También se enseña como manejar un Sistema de Gestor de Base De Datos, en este caso de Postgresql el cual es uno de los sistemas que esta siendo utilizado por la empresa. Otro de los conocimientos adquiridos es la creación y uso de los Procedimientos almacenados, los cuales fueron muy utilizados en el proyecto.
+
+En ingeniería del Software, se enseñan los principios y las metodologías para el desarrollo y mantenimiento de sistemas software (Zelkovitz, 1978). En este proyecto se utilizo Scrum, la cual es una metodología ágil que se basa en una estructura de desarrollo incremental.
+
+\subsection{conclusiones}
+
+Comúnmente los estudiantes egresados de las universidades no han tenido la oportunidad de conocer el campo laboral para el que han sido formados, por esta razón realizar pasantías resulta una buena oportunidad para adquirir experiencia laboral y poder aplicar todo lo aprendido durante la carrera, guiado por un tutor empresarial el cual siempre ayudará al pasante en todo el periodo de duración de las mismas.\\
+
+El conocimiento adquirido te permite crecer profesionalmente y sentir mas seguridad a la hora de enfrentar el campo laboral. 
+
+El principal objetivo del presente proyecto era optimizar el código del sistema y realizar el análisis, diseño e implementación de un módulo de Hibernate para el manejador de base de datos el cuál se logro completar satisfactoriamente, aplicando todos los conocimientos adquiridos en la carrera.
+
+Una acotación importante sería mejorar la base de datos utilizada por este proyecto ya que no cuenta con unas relaciones que permitan hacer las busquedas de una manera eficiente.
+
+Realizar pasantías en Ogangi, es una experiencia gratificante ya que aparte de todos los conocimientos adquiridos, el ambiente de trabajo es muy agradable. Hay mucha unión y compañerismo y en cualquier situación en la que se necesite ayuda para realizar algun objetivo de un proyecto se puede contar con el apoyo de todos.  
+
+Ogangi resulta ser una empresa en la cual la unión entre sus empleados hace que el trabajo sea mas agradable.
+
+
+
 
 
  
