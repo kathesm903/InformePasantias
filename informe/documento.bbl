@@ -1,0 +1,82 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{#1}
+\csname url@rmstyle\endcsname
+\providecommand{\newblock}{\relax}
+\providecommand{\bibinfo}[2]{#2}
+\providecommand\BIBentrySTDinterwordspacing{\spaceskip=0pt\relax}
+\providecommand\BIBentryALTinterwordstretchfactor{4}
+\providecommand\BIBentryALTinterwordspacing{\spaceskip=\fontdimen2\font plus
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
+  \fontdimen4\font\relax}
+\providecommand\BIBforeignlanguage[2]{{%
+\expandafter\ifx\csname l@#1\endcsname\relax
+\typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
+\typeout{** loaded for the language `#1'. Using the pattern for}%
+\typeout{** the default language instead.}%
+\else
+\language=\csname l@#1\endcsname
+\fi
+#2}}
+
+\bibitem{Aguirre}
+I.~Aguirre and L.~andueza, ``Diseño de un manipulador robótico con tres
+  grados de libertad para fines educativos,'' \emph{Ciencia e Ingenerieria},
+  vol.~30, no.~1, pp. 3--14, 2009.
+
+
+\bibitem{jiang}
+J.~Arroyo, ``Diseño y construcción de un brazo robótico con cinco grados de
+  libertad para fines educativos,'' Universidad de los Andes, Escuela de
+  Ingeniería. Mérida, Venezuela, {Proyecto de Grado EISULA}, 2016.
+
+
+\bibitem{vaijanti}
+V.~B, ``Robotic arm control using pid controller and inverse kinematics,''
+  \emph{INTERNATIONAL JOURNAL OF ENGINEERING DEVELOPMENT AND RESEARCH}, vol.~5,
+  no.~2, pp. 1571--1579, 2017.
+
+
+\bibitem{LI}
+J.~Li and M.~Chignell, ``Communication of emotion in social robots through
+  simple head and arm movements,'' \emph{International journal of social
+  robotics}, vol.~3, no.~2, pp. 125--142, 2011.
+
+
+\bibitem{Sailaja}
+S.~M, R.~R. M, and P.~K. S, ``Position control of stanford manipulator using
+  artificial neural networks,'' \emph{Int. Journal of Applied Sciences and
+  Engineering Research}, vol.~4, no.~4, pp. 443--454, 2015.
+
+
+\bibitem{sanabria}
+R.~Sanabria and S.~Ortiz, ``DiseÑo de un brazo robotico clasificador de
+  objetos,'' Universidad Pedagogica Nacional, FACULTAD DE CIENCIA Y TECNOLOGIA.
+  Bogota, Colombia, {Proyecto de Grado }, 2015.
+
+
+\bibitem{Gamal}
+G.~I. Selim, N.~H. El-Amary, and D.~M.~A. Dahab, ``Force signal tuning for a
+  surgical robotic arm using pid controller,'' \emph{International Journal of
+  Computer Theory and Engineering}, vol.~4, no.~2, pp. 148--152, 2012.
+
+
+\bibitem{Serrezuela}
+R.~R. Serrezuela, A.~F.~C. Chavarro, M.~A.~T. Cardozo, A.~L. Toquica, and
+  L.~F.~O. Martinez, ``Kinematic modelling of a robotic arm manipulator using
+  matlab,'' \emph{ARPN Journal of Engineering and Applied Sciences}, vol.~12,
+  no.~7, pp. 2037--2045, 2017.
+
+
+\bibitem{Wei}
+Y.~Wei and J.~Zhao, ``Designing robot behavior in human robot interaction based
+  on emotion expression,'' \emph{Industrial Robot: An International Journal},
+  vol.~43, no.~4, pp. 380--389, 2017.
+
+
+\bibitem{Majed}
+M.~D. Youns, S.~M. Attya, and A.~I. Abdulla, ``Position control of robot arm
+  using genetic algorithmbased pid controller,'' \emph{Al-Rafidain
+  Engineering}, vol.~21, no.~6, pp. 19--30, 2013.
+
+
+\end{thebibliography}

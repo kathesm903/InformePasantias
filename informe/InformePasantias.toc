@@ -1,0 +1,30 @@
+\select@language {spanish}
+\select@language {spanish}
+\contentsline {chapter}{Introducci\IeC {\'o}n}{\es@scroman {vi}}{chapter*.3}
+\contentsline {chapter}{\numberline {1}Marco de Referencia}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Misi\IeC {\'o}n:}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Visi\IeC {\'o}n:}{1}{section.1.2}
+\contentsline {chapter}{\numberline {2}Bases Te\IeC {\'o}ricas}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Programaci\IeC {\'o}n Orientada a Objetos:}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}JAVA:}{4}{section.2.2}
+\contentsline {section}{\numberline {2.3}Procedimientos almacenados:}{4}{section.2.3}
+\contentsline {section}{\numberline {2.4}Hibernate:}{5}{section.2.4}
+\contentsline {section}{\numberline {2.5}Sistema de Gestor de Base De Datos(SGBD):}{5}{section.2.5}
+\contentsline {chapter}{\numberline {3}Aspectos Procedimentales}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}Plan de trabajo:}{7}{section.3.1}
+\contentsline {section}{\numberline {3.2}Desarrollo del plan:}{9}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Introducci\IeC {\'o}n a la empresa y al entendimiento de los sistemas:}{9}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Levantamiento de Requerimientos:}{9}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}An\IeC {\'a}lisis:}{10}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Dise\IeC {\~n}o:}{10}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Implementaci\IeC {\'o}n:}{10}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}Pruebas:}{11}{subsection.3.2.6}
+\contentsline {section}{\numberline {3.3}Vinculaci\IeC {\'o}n del proyecto con las materias de la carrera}{12}{section.3.3}
+\contentsline {chapter}{Conclusiones}{13}{section.3.3}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }as}{15}{chapter*.4}
+\contentsline {chapter}{Anexos}{16}{chapter*.5}
+\contentsline {section}{\numberline {3.4}Creaci\IeC {\'o}n de procedimientos Almacenados:}{17}{section.3.4}
+\contentsline {section}{\numberline {3.5}Llamados a los procedimientos almacenados:}{19}{section.3.5}
+\contentsline {section}{\numberline {3.6}Entidades en Hibernate:}{20}{section.3.6}
+\contentsline {section}{\numberline {3.7}Archivo XML:}{20}{section.3.7}
+\contentsline {section}{\numberline {3.8}Clase Migrate:}{21}{section.3.8}

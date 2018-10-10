@@ -1,0 +1,22 @@
+\select@language {spanish}
+\select@language {spanish}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagrama de Gantt}}{8}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Corriendo el servidor}}{11}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Datos consultados por medio de los procedimientos almacenados}}{11}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces SMS recibido con los datos solicitados}}{12}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Borra a un elector por medio de su c\IeC {\'e}dula}}{17}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Realiza una consulta diferente dependiendo de una condici\IeC {\'o}n}}{18}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Elimina datos repetidos de una tabla y retorna el resultado}}{18}{figure.3.7}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Llamado al procedimiento get\_data\_info()}}{19}{figure.3.8}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces El resultado del procedimiento se mostrara dependiendo de la condici\IeC {\'o}n que cumple }}{19}{figure.3.9}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Entidad que permite crear la tabla cargos}}{20}{figure.3.10}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Entidad que permite crear la tabla cc\_2018}}{20}{figure.3.11}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Se aprecia las conexiones a Oracle y Postgresql}}{21}{figure.3.12}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Se aprecian todas las entidades que pueden ser creadas por Hibernate}}{21}{figure.3.13}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Se establece la conexi\IeC {\'o}n con Oracle y Postgresql}}{22}{figure.3.14}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Funci\IeC {\'o}n que permite la migraci\IeC {\'o}n de Oracle a Postgresql}}{22}{figure.3.15}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Guarda data de Oracle a Postgresql}}{23}{figure.3.16}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Finaliza la sesi\IeC {\'o}n}}{23}{figure.3.17}
